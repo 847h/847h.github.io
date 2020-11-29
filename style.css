@@ -33,7 +33,8 @@ p.links a::after {
   left: 0;
   content: '';
   width: 100%;
-  transform: scale(0, 0);
+  height: 1px;
+  transform: scale(0, 1);
   transform-origin: right top;
   transition: transform .3s;
 }
